@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #eeefff;
+}
+
+.header-box, .footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6482AD;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.header-box h1, .footer-box p {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header-box h2 {
+    margin: 0;
+    margin-right: 35px;
+    font-size: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.header-logo {
+    height: 40px; 
+    margin-right: 5px; 
+}
+
+.upload-section-box {
+    background-color: #7FA1C3;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.upload-section-box h3 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.sidebar {
+    margin-top: 25px;
+    padding-right: 20px;
+    background-color: #dfe5fe;
+    height: 15vh;
+    width: 15vw;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar button {
+    background-color: #6482AD;
+    color: white;
+    border: none;
+}
+
+.sidebar button:hover {
+    background-color: #163e5d;
+}
+
+.main-content {
+    padding-left: 20px;
+}
+
+.upload-section {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+}
+
+.input-group .form-control {
+    flex: 1;
+    border-right: none;
+}
+
+.input-group .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+}
+
+.result-area {
+    border: 1px solid #ced4da;
+    padding: 10px;
+    min-height: 300px;
+    max-height: 300px;
+    background-color: #f8f9fa;
+    overflow-y: auto;
+}
+
+.result-area div {
+    margin-bottom: 5px; 
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #80bdff;
+}
+
+.question-answer-box {
+    background-color: #dfe5fe;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6482AD;
+    color: #fff;
+    padding: 10px;
+    margin-top: 60px;
+}
+
+.footer-box p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.footer-box a {
+    color: #fff;
+    text-decoration: none;
+}
